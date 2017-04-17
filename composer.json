@@ -1,36 +1,30 @@
 {
-    "name": "dingo/api",
-    "description": "A RESTful API package for the Laravel and Lumen frameworks.",
-    "keywords": [
-        "api",
-        "dingo",
-        "laravel",
-        "restful"
-    ],
+    "name": "LaiheLi/dingo-api",
+    "description": "fork from dingo/api for laravel5.0",
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "Jason Lewis",
-            "email": "jason.lewis1991@gmail.com"
+            "name": "Yuliang Li",
+            "email": "liyu857697@gmail.com"
         }
     ],
     "require": {
-        "php": "^5.5.9 || ^7.0",
+        "php": ">=5.4",
         "dingo/blueprint": "0.2.*",
-        "illuminate/routing": "^5.1",
-        "illuminate/support": "^5.1",
+        "illuminate/routing": "5.0.*",
+        "illuminate/support": "5.0.*",
         "league/fractal": ">=0.12.0"
     },
     "require-dev": {
-        "illuminate/auth": "^5.1",
-        "illuminate/cache": "^5.1",
-        "illuminate/console": "^5.1",
-        "illuminate/database": "^5.1",
-        "illuminate/events": "^5.1",
-        "illuminate/filesystem": "^5.1",
-        "illuminate/log": "^5.1",
-        "illuminate/pagination": "^5.1",
-        "laravel/lumen-framework": "5.1.* || 5.2.*",
+        "illuminate/auth": "5.0.*",
+        "illuminate/cache": "5.0.*",
+        "illuminate/console": "5.0.*",
+        "illuminate/database": "5.0.*",
+        "illuminate/events": "5.0.*",
+        "illuminate/filesystem": "5.0.*",
+        "illuminate/log": "5.0.*",
+        "illuminate/pagination": "5.0.*",
+        "laravel/lumen-framework": "5.0.* || 5.0.*",
         "lucadegasperi/oauth2-server-laravel": "5.0.*",
         "mockery/mockery": "~0.9",
         "phpunit/phpunit": "^4.8 || ^5.0",
